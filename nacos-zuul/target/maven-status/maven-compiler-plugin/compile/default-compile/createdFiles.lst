@@ -1,0 +1,5 @@
+com\nacos\zuul\config\Swagger2Config.class
+com\nacos\zuul\config\SwaggerResourceConfig.class
+com\nacos\zuul\config\SwaggerHeaderFilter.class
+com\nacos\zuul\config\SwaggerHandler.class
+com\nacos\zuul\GateWayApplication.class

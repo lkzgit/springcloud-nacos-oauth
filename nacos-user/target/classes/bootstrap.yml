@@ -1,0 +1,40 @@
+server:
+  port: 9100
+  servlet:
+    context-path: /user
+spring:
+  application:
+    name: nacos-user
+  datasource:
+    url: jdbc:mysql://localhost:3306/oauth_mms?useUnicode=true&useSSL=false&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&
+      serverTimezone=GMT%2B8
+    username: root
+    password: root
+    druid:
+      driver-class-name: com.mysql.jdbc.Driver
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8849
+        namespace: ${spring.cloud.nacos.config.namespace}
+      config:
+        server-addr: 127.0.0.1:8849 # Nacos 服务器地址
+        namespace: lkz-ncaos # 使用的 Nacos 的命名空间，默认为 null
+        group: DEFAULT_GROUP # 使用的 Nacos 配置分组，默认为 DEFAULT_GROUP
+        name:  # 使用的 Nacos 配置集的 dataId，默认为 spring.application.name
+        file-extension: yaml # 使用的 Nacos 配置集的 dataId 的文件拓展名，同时也是 Nacos 配置集的配置格式，默认为 properties
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*Mapper.xml
+#security:
+#  oauth2:
+#    client:
+#      client-id: user-client # 数据库oauth_client_details表 和认证服务中的配置一直，不然会出错
+#      client-secret: user-secret-8888
+#      user-authorization-uri: http://localhost:6001/oauth/authorize #授权码方式
+#      access-token-uri: http://localhost:6001/oauth/token  #密码模式需要用到获取token的接口
+#    resource:
+#      id: user-client
+#      user-info-uri: user-info
+#    authorization:
+#      check-token-access: http://localhost:6001/oauth/check_token
+

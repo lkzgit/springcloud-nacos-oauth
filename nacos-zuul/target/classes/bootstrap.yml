@@ -1,0 +1,63 @@
+server:
+  port: 8100
+spring:
+  application:
+    name: nacos-gateway
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/oauth_mms?useUnicode=true&useSSL=false&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&
+      serverTimezone=GMT%2B8
+    username: root
+    password: root
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8849
+        namespace: ${spring.cloud.nacos.config.namespace}
+      config:
+        server-addr: 127.0.0.1:8849 # Nacos 服务器地址
+        namespace: lkz-ncaos # 使用的 Nacos 的命名空间，默认为 null
+        group: DEFAULT_GROUP # 使用的 Nacos 配置分组，默认为 DEFAULT_GROUP
+        name:  # 使用的 Nacos 配置集的 dataId，默认为 spring.application.name
+        file-extension: yml # 使用的 Nacos 配置集的 dataId 的文件拓展名，同时也是 Nacos 配置集的配置格式，默认为 properties
+#通过gateway进行路由跳转
+    gateway:
+      routes:
+        - id: nacos-user
+          uri: lb://nacos-user
+          predicates:
+            - Path=/nacos-user/**  # 服务名
+          filters:
+            - RewritePath=/nacos-user/(?<remaining>.*), /${remaining} # 将 /user-service 前缀剔除
+            - SwaggerHeaderFilter
+            - StripPrefix=1
+        - id: nacos-consumer
+          uri: lb://nacos-consumer
+          predicates:
+            - Path=/nacos-consumer/**
+          filters:
+            - RewritePath=/consumer/(?<remaining>.*), /${remaining}
+            - SwaggerHeaderFilter
+            - StripPrefix=1
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      #----------------------超时配置-------------------
+ribbon:
+  ReadTimeout: 360000
+  ConnectTimeout: 360000
+  MaxAutoRetries: 1
+  MaxAutoRetriesNextServer: 2
+  eureka:
+    enabled: true
+hystrix:
+  command:
+    default:
+      execution:
+        timeout:
+          enabled: true
+        isolation:
+          thread:
+            timeoutInMilliseconds: 360000

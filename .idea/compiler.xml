@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="nacos-zuul" />
+        <module name="nacos-user" />
+        <module name="nacos-oauth02" />
+        <module name="nacos-gateway-zuul" />
+        <module name="nacos-oauth-parent" />
+        <module name="nacos-common" />
+        <module name="nacos-oauth" />
+        <module name="nacos-consumer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="nacos-com" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

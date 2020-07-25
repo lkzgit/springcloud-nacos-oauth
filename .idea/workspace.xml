@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a51359fb-fc6e-413b-a81c-48164f76cdf5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/workanzhuang/maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\workanzhuang\maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ewJPegz9k5ePBtJgh5qY5hq7aA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="E:/百度网盘/咕泡/01.可以秒杀全场的SpringCloud微服务电商实战项目，文档贼全！/视频教程/09-Spring Security Oauth2 JWT/代码/changgou/changgou-parent" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.33732057" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.nacos.oauth02.config" />
+      <recent name="com.nacos.oauth02.error" />
+      <recent name="com.nacos.user.entity" />
+      <recent name="com.nacos.oauth02.service.Impl" />
+      <recent name="com.nacos.oauth02.entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\demo\Springcloud-nacos\nacos-user\src\main\java\com\nacos\user\oauth" />
+      <recent name="D:\demo\Springcloud-nacos\nacos-zuul\src\main\java\com\nacos\zuul\config\swagger" />
+      <recent name="D:\demo\Springcloud-nacos\nacos-oauth02\src\main\java\com\nacos\oauth02" />
+      <recent name="D:\demo\Springcloud-nacos\nacos-oauth02\src\main\resources\mapper" />
+      <recent name="D:\demo\Springcloud-nacos\nacos-oauth02\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GateWayApplication">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nacos.oauth.entity.Test" />
+      <module name="nacos-oauth" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nacos.oauth.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="nacos-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nacos.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nacos.consumer.ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GateWayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="nacos-zuul" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nacos.zuul.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nacos.zuul.GateWayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OauthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="nacos-oauth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nacos.oauth.OauthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OauthApplication02" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="nacos-oauth02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nacos.oauth02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nacos.oauth02.OauthApplication02" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="nacos-user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nacos.user.authConfig.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nacos.user.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.GateWayApplication" />
+        <item itemvalue="Spring Boot.OauthApplication02" />
+        <item itemvalue="Spring Boot.ConsumerApplication" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Spring Boot.UserApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a51359fb-fc6e-413b-a81c-48164f76cdf5" name="Default Changelist" comment="" />
+      <created>1595226698700</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595226698700</updated>
+      <workItem from="1595226701373" duration="18074000" />
+      <workItem from="1595293606131" duration="2122000" />
+      <workItem from="1595300793357" duration="9834000" />
+      <workItem from="1595314802173" duration="551000" />
+      <workItem from="1595316138736" duration="946000" />
+      <workItem from="1595323928674" duration="2980000" />
+      <workItem from="1595337627008" duration="92000" />
+      <workItem from="1595338521378" duration="920000" />
+      <workItem from="1595342720157" duration="463000" />
+      <workItem from="1595343317103" duration="952000" />
+      <workItem from="1595467972048" duration="27336000" />
+      <workItem from="1595508055909" duration="9946000" />
+      <workItem from="1595552230614" duration="22756000" />
+      <workItem from="1595603488577" duration="10641000" />
+      <workItem from="1595643523823" duration="15311000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="74" key="#Inspections" timestamp="1595573840043">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1595573840043" />
+    <state x="361" y="74" key="#Project_Structure" timestamp="1595481340726">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1595481340726" />
+    <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1595610575692">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1595610575692" />
+    <state x="675" y="368" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1595648815861">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="675" y="368" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1595648815861" />
+    <state x="535" y="279" width="465" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1595646098963">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="535" y="279" width="465" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1595646098963" />
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595649233076">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1595649233076" />
+    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1595650342845">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595650342845" />
+    <state width="1493" height="162" key="GridCell.Tab.0.bottom" timestamp="1595685538260">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="162" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595685538260" />
+    <state width="1493" height="162" key="GridCell.Tab.0.center" timestamp="1595685538260">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="162" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595685538260" />
+    <state width="1493" height="162" key="GridCell.Tab.0.left" timestamp="1595685538260">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="162" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595685538260" />
+    <state width="1493" height="162" key="GridCell.Tab.0.right" timestamp="1595685538260">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="162" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595685538260" />
+    <state width="1493" height="162" key="GridCell.Tab.1.bottom" timestamp="1595685538261">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="162" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595685538261" />
+    <state width="1493" height="162" key="GridCell.Tab.1.center" timestamp="1595685538260">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="162" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1595685538260" />
+    <state width="1493" height="162" key="GridCell.Tab.1.left" timestamp="1595685538260">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="162" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1595685538260" />
+    <state width="1493" height="162" key="GridCell.Tab.1.right" timestamp="1595685538260">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="162" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1595685538260" />
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom" timestamp="1595618438231">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595618438231" />
+    <state width="1493" height="261" key="GridCell.Tab.2.center" timestamp="1595618438231">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1595618438231" />
+    <state width="1493" height="261" key="GridCell.Tab.2.left" timestamp="1595618438231">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1595618438231" />
+    <state width="1493" height="261" key="GridCell.Tab.2.right" timestamp="1595618438231">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1595618438231" />
+    <state x="299" y="70" key="Maven.ArtifactSearchDialog" timestamp="1595684400422">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="70" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1595684400422" />
+    <state x="272" y="0" key="SettingsEditor" timestamp="1595684582916">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595684582916" />
+    <state x="231" y="113" key="new project wizard" timestamp="1595647693572">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="231" y="113" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1595647693572" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1595571112595">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1595571112595" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/nacos-user/src/main/java/com/nacos/user/service/impl/UserServiceImpl.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

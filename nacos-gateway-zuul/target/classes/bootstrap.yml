@@ -1,0 +1,26 @@
+server:
+  port: 8200
+spring:
+  application:
+    name: nacos-gateway-zuul
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8849
+        namespace: ${spring.cloud.nacos.config.namespace}
+      config:
+        namespace: lkz-ncaos
+        server-addr: 127.0.0.1:8849
+        file-extension: yml
+
+#security:
+#  basic:
+#    enabled: false
+#  oauth2:
+#    client:
+#      access-token-uri: http://10.10.8.2:9030/uaa/oauth/token ##网关的地址
+#      user-authorization-uri: http://10.10.8.2:9030/uaa/oauth/authorize
+#    resource:
+#      user-info-uri:  http://10.10.8.2:9030/uaa/user
+#      prefer-token-info: false
+
